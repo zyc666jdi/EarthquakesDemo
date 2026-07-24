@@ -1,0 +1,68 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcodeproj/xcshareddata/xcschememanagement.plist
+*.xcodeproj/xcshareddata/IDEWorkspaceChecks.plist
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# CocoaPods
+Pods/
+Podfile.lock
+*.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Archives & IPAs
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.app
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Temporary / logs
+*.log
+*.tmp
+*~
+
+# Large raw video sources (keep compressed GIFs)
+*.mov
+*.mp4
+*.avi
+*.mkv
